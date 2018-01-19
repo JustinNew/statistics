@@ -1,11 +1,8 @@
 Statistics
 ==========
 
-### Area for normal distribution of $\sigma$
+### Area for normal distribution of s.d.
 
-  - +/-$\sigma$ 68%
-  - +/- 2$\sigma$ 95%
-  - +/- 3$\sigma$ 99.7%
-
-$\Gamma(n) = (n-1)!\quad\forall
-n\in\mathbb N$
+  - +/- s.d. 68%
+  - +/- 2*s.d. 95%
+  - +/- 3*s.d. 99.7%
