@@ -14,3 +14,9 @@ ROC curve, is a graphical plot that illustrates the diagnostic ability of a bina
   -  Y - TPR, X - FPR
   - TPR = TP / (TP + FN) = TP / P
   - FPR = FP / (FP + TN) = FP / N
+
+### K-S Test
+
+https://onlinecourses.science.psu.edu/stat414/node/323
+
+In statistics, the Kolmogorov–Smirnov test (K–S test or KS test) is a nonparametric test of the equality of continuous, one-dimensional probability distributions that can be used to compare a sample with a reference probability distribution (one-sample K–S test), or to compare two samples (two-sample K–S test).
