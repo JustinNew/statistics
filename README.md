@@ -85,9 +85,14 @@ Without Replacement
   - 6th: f, 1/6
   - To get (1,2,3,4,5,6): 1 + 6/5 + 6/4 + 6/3 + 6/2 + 6/1
 
-#### 1000 people, each time select 10, (w/ replacement), 问每个人on average多少次会被第一次抽到（1000个人，你每次抽10个人。 每次抽完以后再把这10个人放回去。这样有些人会被抽中1次，有些人会被抽中2次，etc。 比如你抽了10次之后，有一个人Mike, 他第一次被你抽中。现在问，平均下来，每个人被第一次抽中时， 你抽了几次。）
+#### 1000 people, each time select 10 (w/o replacement) 问每个人on average多少次会被抽到
+
+  - In sampling without replacement, focus on how many iterations are needed. That number will be any count from 1 through 100, each equally likely. 
+  - So sampling without replacement, it will be 1/100*(1+2+...+100) = 50.5.
+
+#### 1000 people, each time select 10, (w/ replacement), 问每个人on average多少次会被第一次抽到（1000个人，你每次抽10个人。 每次抽完以后再把这10个人放回去。这样有些人会被抽中1次，有些人会被抽中2次，etc。 比如你抽了10次之后，有一个人Mike, 他第一次被你抽中。现在问，平均下来，一个人被第一次抽中时， 你抽了几次。）
 
   - p = 1 / 100
-  - Too complicated ...
+  - Expected times to be selected 1/p = 100
 
 
