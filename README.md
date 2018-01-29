@@ -66,31 +66,29 @@ Without Replacement
   
 ### A fair cube with 6 faces. On average, how many times do you need to roll the cube to get #1?
 
-roll once and get #1: 1/6
-roll twice and get #1: 5/6*1/6
-roll 3 times and get #1: (5/6)^2*1/6
-.
-.
-.
-E(N) = 1/6 + 2*1/6*5/6 + 3*1/6*(5/6)^2 + ...
-5/6 * E(N) = 1/6 * 5/6 + ... 
-1/6 * E(N) = 1/6 + 1/6*5/6 + = 1
-E(N) = 1/p
+  - roll once and get #1: 1/6
+  - roll twice and get #1: 5/6*1/6
+  - roll 3 times and get #1: (5/6)^2*1/6
+  - ...
+  - E(N) = 1/6 + 2*1/6*5/6 + 3*1/6*(5/6)^2 + ...
+  - 5/6 * E(N) = 1/6 * 5/6 + ... 
+  - 1/6 * E(N) = 1/6 + 1/6*5/6 + = 1
+  - E(N) = 1/p
 
 #### How many times to roll to get a set (1,2,3,4,5,6)?
 
-1th: a, 1
-2nd: b, 5/6
-3rd: c, 4/6
-4th: d, 3/6
-5th: e, 2/6
-6th: f, 1/6
+  - 1th: a, 1
+  - 2nd: b, 5/6
+  - 3rd: c, 4/6
+  - 4th: d, 3/6
+  - 5th: e, 2/6
+  - 6th: f, 1/6
 
 1 + 6/5 + 6/4 + 6/3 + 6/2 + 6/1
 
 #### 1000 people, each time select 10, (w/ replacement), 问每个人on average多少次会被第一次抽到（1000个人，你每次抽10个人。 每次抽完以后再把这10个人放回去。这样有些人会被抽中1次，有些人会被抽中2次，etc。 比如你抽了10次之后，有一个人Mike, 他第一次被你抽中。现在问，平均下来，每个人被第一次抽中时， 你抽了几次。）
 
-p = 1 / 100
-Expected Time = 1/p = 100
+  - p = 1 / 100
+  - Expected Times = 1 + 100/99 + 100/98 + ... + 100/1
 
 
