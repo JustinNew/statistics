@@ -47,4 +47,50 @@ By adding Gaussian noise to the input, the learning model will behave like an L2
   - Error Term i.i.d (Independent and identically distributed) 均值为0，近normal 分布(normally distributed residuals)，constant variance和independently distributed. 
   - The predictor variables X1, . . . , Xp, are assumed to be linearly independent of each other; variables are nonrandom; variable values are all measured without error.
   - All observations are equally reliable and have approximately equal role in determining the regression results and in influencing conclusions.
+  
+### With or Without Replacement
+
+With Replacement
+  - Sampling with replacement is used to find probability with replacement. In other words, you want to find the probability of some event where there’s a number of balls, cards or other objects, and you replace the item each time you choose one. Let’s say you had a population of 7 people, and you wanted to sample 2. Their names are: John, Jack, Qiu, Tina, Hatty, Jacques, Des. You could put their names in a hat. If you sample with replacement, you would choose one person’s name, put that person’s name back in the hat, and then choose another name. The possibilities for your two-name sample are: [John, John], [John, Jack], [John, Qui], … and so on.
+
+Without Replacement
+  - Sampling without Replacement is a way to figure out probability without replacement. In other words, you don’t replace the first item you choose before you choose a second.
+
+# Problems
+
+### A box contains a red ball, an orange ball, a yellow ball, a green ball, a blue ball and an indigo ball. Billy randomly selects 7 balls from the box (with replacement). What is the expected value for the number of distinct colored balls Billy will select?
+  - Let P(i),0<i<7 be the probability of having i distinct balls after drawing 7 balls.
+  - P(1) = C(6,1) * (1/6)^7
+  - P(2) = C(6,2) * (1/6)^7 * (C(7,1) + C(7,2) + C(7,3) + C(7,4) + C(7,5) + C(7,6))
+  - ...
+  
+### A fair cube with 6 faces. On average, how many times do you need to roll the cube to get #1?
+
+roll once and get #1: 1/6
+roll twice and get #1: 5/6*1/6
+roll 3 times and get #1: (5/6)^2*1/6
+.
+.
+.
+E(N) = 1/6 + 2*1/6*5/6 + 3*1/6*(5/6)^2 + ...
+5/6 * E(N) = 1/6 * 5/6 + ... 
+1/6 * E(N) = 1/6 + 1/6*5/6 + = 1
+E(N) = 1/p
+
+#### How many times to roll to get a set (1,2,3,4,5,6)?
+
+1th: a, 1
+2nd: b, 5/6
+3rd: c, 4/6
+4th: d, 3/6
+5th: e, 2/6
+6th: f, 1/6
+
+1 + 6/5 + 6/4 + 6/3 + 6/2 + 6/1
+
+#### 1000 people, each time select 10, (w/ replacement), 问每个人on average多少次会被第一次抽到（1000个人，你每次抽10个人。 每次抽完以后再把这10个人放回去。这样有些人会被抽中1次，有些人会被抽中2次，etc。 比如你抽了10次之后，有一个人Mike, 他第一次被你抽中。现在问，平均下来，每个人被第一次抽中时， 你抽了几次。）
+
+p = 1 / 100
+Expected Time = 1/p = 100
+
 
