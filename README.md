@@ -101,6 +101,15 @@ Without Replacement
   
 or, 
 
-  - It really depends on what model is assumed. However, if the idea is that no matter how long you leave your car there, you have a 16% chance of getting through any given hour unscathed, you can treat it as an exponential decay problem. Let p(t) be the probability that you do not get a ticket in the first t hours. Then p(1)=0.16, p(2)=0.16*0.16 (a 16% chance of making it through the first hour times a 16% chance of making it through the second), and in general p(t)=0.16t. The probability of not getting a ticket in the first half hour is then p(1/2)=0.161/2=0.4, and the probability that you do get a ticket in the first half hour is about 1−0.4=0.6.
+  - It really depends on what model is assumed. However, if the idea is that no matter how long you leave your car there, you have a 16% chance of getting through any given hour unscathed, you can treat it as an exponential decay problem. Let p(t) be the probability that you do not get a ticket in the first t hours. Then p(1)=0.16, p(2)=0.16*0.16 (a 16% chance of making it through the first hour times a 16% chance of making it through the second), and in general p(t)=0.16^t. The probability of not getting a ticket in the first half hour is then p(1/2)=0.16^(1/2)=0.4, and the probability that you do get a ticket in the first half hour is about 1−0.4=0.6.
+  
+### I throw three (n) darts along a circle, what is the probability all three(n) points are in a semi-circle?
+
+  - Suppose that point i has angle 0 (angle is arbitrary in this problem) -- essentially this is the event that point i is the "first" or "leading" point in the semicircle. Then we want the event that all of the points are in the same semicircle -- i.e., that the remaining points end up all in the upper half plane.
+
+  - That's a coin-flip for each remaining point, so you end up with 1 / 2^(n−1). There's n points, and the event that any point i is the "leading" point is disjoint from the event that any other point j is, so the final probability is n / 2^(n−1) (i.e. we can just add them up).
+
+  - A sanity check for this answer is to notice that if you have either one or two points, then the probability must be 1, which is true in both cases.
+
 
 
