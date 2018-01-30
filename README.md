@@ -98,7 +98,9 @@ Without Replacement
 ### If the probability a car get at least one ticket within an hour is 84%, what is the probability of getting at least one ticket in half an hour?
 
   - Say the probability of not get a ticket within half an hour is 1-x, then one hour without a ticket is (1-x)*(1-x)=1-0.84. x=0.6
+  
 or, 
+
   - It really depends on what model is assumed. However, if the idea is that no matter how long you leave your car there, you have a 16% chance of getting through any given hour unscathed, you can treat it as an exponential decay problem. Let p(t) be the probability that you do not get a ticket in the first t hours. Then p(1)=0.16, p(2)=0.16*0.16 (a 16% chance of making it through the first hour times a 16% chance of making it through the second), and in general p(t)=0.16t. The probability of not getting a ticket in the first half hour is then p(1/2)=0.161/2=0.4, and the probability that you do get a ticket in the first half hour is about 1−0.4=0.6.
 
 
