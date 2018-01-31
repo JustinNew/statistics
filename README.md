@@ -130,12 +130,12 @@ or,
   
 ### 问的是有100个红色的球和100个白色的球，还有两个盒子。问怎么样把所有球装入这两个盒子里，可以得到从这两个箱子里取一个球是红球的概率最大。
 
-  - 一个放1个红球。另一个99个红球，100个白球。这样概率不就是0.5+0.5*99/199了吗~
+  - 一个放1个红球。另一个99个红球，100个白球。这样概率不就是0.5 + 0.5 * 99/199了吗~
   
 ### Bobo the amoeba has a 25%, 25%, and 50% chance of producing 0, 1, or 2 offspring, respectively. Each of Bobo's descendants also have the same probabilities. What is the probability that Bobo's lineage dies out?
 
   - The probability of lineage dies out for Bob = probability of lineage dies out for each of Bob’s son’s. 
-  - Let’s assume the probability is P, then p=0.25+0.25*p+0.5(p*p) => p=0.5
+  - Let’s assume the probability is P, then p = 0.25 + 0.25 * p + 0.5 * (p * p) => p = 0.5
   - That is, Bob’lineage dies out = Bob has not child + Bob has one child * this child’s lineage dies out + Bob has two children * both children’s lineage dies out
 
 
