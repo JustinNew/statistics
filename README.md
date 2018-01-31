@@ -111,7 +111,7 @@ or,
 
   - A sanity check for this answer is to notice that if you have either one or two points, then the probability must be 1, which is true in both cases.
   
-### Q: 1) A and B have a game. There are 7 games in total, who wins 4 games first will succeed the whole game and then the game ends. Given that A has a probability P to win a single game, and A already lost the first 2 games, what's the probability that A still wins the whole game. 2) Given that someone said A has 80% probability to win the whole game, what is the posterior that A win the whole game.
+### 1) A and B have a game. There are 7 games in total, who wins 4 games first will succeed the whole game and then the game ends. Given that A has a probability P to win a single game, and A already lost the first 2 games, what's the probability that A still wins the whole game. 2) Given that someone said A has 80% probability to win the whole game, what is the posterior that A win the whole game.
 
 
 
