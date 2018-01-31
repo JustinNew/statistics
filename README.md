@@ -122,7 +122,7 @@ or,
   
 ### 1) A and B have a game. There are 7 games in total, who wins 4 games first will succeed the whole game and then the game ends. Given that A has a probability P to win a single game, and A already lost the first 2 games, what's the probability that A still wins the whole game. 2) Given that someone said A has 80% probability to win the whole game, what is the posterior that A win the whole game.'
 
-  - 1) C(5, 1)*P^4*(1-P)
+  - C(5, 1)*P^4*(1-P)
 
 ### Consider a game with 2 players, A and B. Player A has 8 stones, player B has 6. Game proceeds as follows. First, A rolls a fair 6-sided die, and the number on the die determines how many stones A takes over from B. Next, B rolls the same die, and the exact same thing happens in reverse. This concludes the round. Whoever has more stones at the end of the round wins and the game is over. If players end up with equal # of stones at the end of the round, it is a tie and another round ensues. What is the probability that B wins in 1, 2, ..., n rounds?
 
