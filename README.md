@@ -58,6 +58,15 @@ Without Replacement
 
 # Problems
 
+### Pick up a coin from C1 and C2 with probability of trials p(h1)=.7, p(h2)=.6 and doing 10 trials. And what is the probability that the given coin you picked is C1 given you have 7 heads and 3 tails?
+
+  - p(C1|7H) = p(7H|C1) * p(C1) / p(7H)
+  - p(7H) = p(7H|C1)*p(C1) + p(7H|C2)*p(C2)
+  - assume p(C1) = p(C2) = 0.5, pick either w/ equal prob.
+  - p(7H | C1) = C(10,7)*0.7^7*0.3^3
+  - ans = C(10,7)*0.7^7 * 0.3^3 * 0.5 / [ C(10,7)*0.7^7 * 0.3^3 * 0.5 + C(10,7)*0.6^7 * 0.4^3 * 0.5]
+
+
 ### A box contains a red ball, an orange ball, a yellow ball, a green ball, a blue ball and an indigo ball. Billy randomly selects 7 balls from the box (with replacement). What is the expected value for the number of distinct colored balls Billy will select?
   - Let P(i),0<i<7 be the probability of having i distinct balls after drawing 7 balls.
   - P(1) = C(6,1) * (1/6)^7
