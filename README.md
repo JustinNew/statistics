@@ -113,9 +113,23 @@ or,
   
 ### 1) A and B have a game. There are 7 games in total, who wins 4 games first will succeed the whole game and then the game ends. Given that A has a probability P to win a single game, and A already lost the first 2 games, what's the probability that A still wins the whole game. 2) Given that someone said A has 80% probability to win the whole game, what is the posterior that A win the whole game.'
 
+  - 1) C(5, 1)*P^4*(1-P)
+
 ### Consider a game with 2 players, A and B. Player A has 8 stones, player B has 6. Game proceeds as follows. First, A rolls a fair 6-sided die, and the number on the die determines how many stones A takes over from B. Next, B rolls the same die, and the exact same thing happens in reverse. This concludes the round. Whoever has more stones at the end of the round wins and the game is over. If players end up with equal # of stones at the end of the round, it is a tie and another round ensues. What is the probability that B wins in 1, 2, ..., n rounds?
 
   - On the first round, B can win if (A,B) rolls: (1,4), (1,5), (1,6), (2,5), (2,6), (3,6) - so there are 6 out of 36 possibilities where B wins. P(B1) [read, probability that B wins in round 1] = 1/6 On the first round, B can tie if (A,B) rolls: (1,3), (2,4), (3,5), (4,6) - so there are 4 out of 36 possibilities where B ties. If B ties with A, there is a second round, where B wins with probability 15/36, A wins with probability 15/36 = 5/12, and they tie with probability 6/36. So P(B2) = 1/9 * (5/12) After the second round, the game only continues if both players have equal number of points, and the probability of a tie in each game is 1/6, so P(B3) = (1/9)*(1/6)*(5/12) Generally, P(Bn) = (1/9)*(1/6)^(n-2)*(5/12)
+  
+### 问的是有100个红色的球和100个白色的球，还有两个盒子。问怎么样把所有球装入这两个盒子里，可以得到从这两个箱子里取一个球是红球的概率最大。
+
+  - 一个放1个红球。另一个99个红球，100个白球。这样概率不就是0.5+0.5*99/199了吗~
+  
+### Bobo the amoeba has a 25%, 25%, and 50% chance of producing 0, 1, or 2 offspring, respectively. Each of Bobo's descendants also have the same probabilities. What is the probability that Bobo's lineage dies out?
+
+  - The probability of lineage dies out for Bob = probability of lineage dies out for each of Bob’s son’s. 
+  - Let’s assume the probability is P, then p=0.25+0.25*p+0.5(p*p) => p=0.5
+  - That is, Bob’lineage dies out = Bob has not child + Bob has one child * this child’s lineage dies out + Bob has two children * both children’s lineage dies out
+
+
 
 
 
