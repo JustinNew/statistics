@@ -137,6 +137,8 @@ or,
   - The probability of lineage dies out for Bob = probability of lineage dies out for each of Bob’s son’s. 
   - Let’s assume the probability is P, then p = 0.25 + 0.25 * p + 0.5 * (p * p) => p = 0.5
   - That is, Bob’lineage dies out = Bob has not child + Bob has one child * this child’s lineage dies out + Bob has two children * both children’s lineage dies out
+  
+### There is a building with 100 floors. You are given 2 identical eggs. How do you use 2 eggs to find the threshold floor, where the egg will definitely break from any floor above floor N, including floor N itself.
 
 
 
