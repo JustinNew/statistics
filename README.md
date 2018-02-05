@@ -64,6 +64,13 @@ Autoregression
 Moving Average
   - x(t) = mu + epsilon(t) + sum( q_i * epsilon(t - i))
 
+### Ways to avoid overfitting
+  - regularization 
+  - dropout
+  - cross validation
+  - early stopping 
+  - ...
+
 # Problems
 
 ### Pick up a coin from C1 and C2 with probability of trials p(h1)=.7, p(h2)=.6 and doing 10 trials. And what is the probability that the given coin you picked is C1 given you have 7 heads and 3 tails?
@@ -111,6 +118,11 @@ Moving Average
 
   - p = 1 / 100
   - Expected times to be selected 1/p = 100
+  
+#### 目问说箱子里面有三种球，红色，蓝色和白色，开始一个一个往出拿，with replacement，这个游戏当你拿到红球的时候就停止了，求问说蓝色球被拿到次数的期望。
+
+  - p = 1/3
+  - Expected times: 1/p = 3 
   
 ### If the probability a car get at least one ticket within an hour is 84%, what is the probability of getting at least one ticket in half an hour?
 
