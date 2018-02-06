@@ -162,7 +162,7 @@ or,
 
 ### 有两个硬币，都是有bias的，但是你不知道具体每个硬币head朝上的概率，现在让你扔100次，扔到head给你1刀，扔到tail付1刀，问怎么设计策略可以赢得最多。
 
-  - stochastic multi arms bandit 
+  - UCB : An Optimal Exploration Algorithm for Multi-Armed Bandits 
 
 
 
