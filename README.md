@@ -160,6 +160,10 @@ or,
   
 ### There is a building with 100 floors. You are given 2 identical eggs. How do you use 2 eggs to find the threshold floor, where the egg will definitely break from any floor above floor N, including floor N itself.
 
+### 有两个硬币，都是有bias的，但是你不知道具体每个硬币head朝上的概率，现在让你扔100次，扔到head给你1刀，扔到tail付1刀，问怎么设计策略可以赢得最多。
+
+  - stochastic multi arms bandit 
+
 
 
 
