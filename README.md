@@ -48,6 +48,20 @@ By adding Gaussian noise to the input, the learning model will behave like an L2
   - The predictor variables X1, . . . , Xp, are assumed to be linearly independent of each other; variables are nonrandom; variable values are all measured without error.
   - All observations are equally reliable and have approximately equal role in determining the regression results and in influencing conclusions.
   
+### ANOVA
+
+  - Analysis of Variance (ANOVA) is a statistical method used to test differences between three or more means.
+  - A hypothesis test that is used to compare the means of two populations is called t-test. A statistical technique that is used to compare the means of more than two populations is known as Analysis of Variance or ANOVA.
+  - Test Statistic: Between Sample Variance/Within Sample Variance
+  - Multiply t-test will increase the type I (false positive) rate: a null hypothesis is rejected although it is true.
+  
+Examples:
+  - http://sphweb.bumc.bu.edu/otlt/MPH-Modules/BS/BS704_HypothesisTesting-ANOVA/BS704_HypothesisTesting-Anova_print.html
+  
+### Chi-square Test
+
+  - chi-square = sum( (observed_frequency_i - expected_frequency_i)^2 / expected_frequency_i )
+
 ### With or Without Replacement
 
 With Replacement
