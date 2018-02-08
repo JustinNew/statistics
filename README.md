@@ -62,6 +62,10 @@ Examples:
 
   - chi-square = sum( (observed_frequency_i - expected_frequency_i)^2 / expected_frequency_i )
 
+### Two Sample T-test
+
+  - https://onlinecourses.science.psu.edu/stat500/node/50
+  
 ### With or Without Replacement
 
 With Replacement
