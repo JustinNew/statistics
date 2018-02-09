@@ -35,16 +35,20 @@ Binary Classification Table
   - z = (p - p_0) / sqrt((p_0 * (1 - p_0)) / n)
   - z = (mu - mu_0) / sqrt(sigma^2 / n)
   
+Note:
+  - Power of test: 1 - beta
+  
 ### Two Sample T-test
 
   - https://onlinecourses.science.psu.edu/stat500/node/50
   
 ### ANOVA
 
-  - Analysis of Variance (ANOVA) is a statistical method used to test differences between three or more means.
+  - Analysis of Variance (ANOVA) is a statistical method used to test differences between two or more means.
   - A hypothesis test that is used to compare the means of two populations is called t-test. A statistical technique that is used to compare the means of more than two populations is known as Analysis of Variance or ANOVA.
   - Test Statistic: Between Sample Variance/Within Sample Variance
   - Multiply t-test will increase the type I (false positive) rate: a null hypothesis is rejected although it is true.
+  - If there are only two conditions of the independent variable, doing ANOVA is the same as running a (two-tailed) two-sample t-test.
   
 Examples:
   - http://sphweb.bumc.bu.edu/otlt/MPH-Modules/BS/BS704_HypothesisTesting-ANOVA/BS704_HypothesisTesting-Anova_print.html
