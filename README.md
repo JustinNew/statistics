@@ -9,6 +9,9 @@ Statistics
   
 ### ROC
 
+ROC: Receiver operating characteristic curve
+AUC: Area under the ROC curve
+
 ROC curve, is a graphical plot that illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied.
 
   -  Y - TPR, X - FPR
