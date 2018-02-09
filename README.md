@@ -30,12 +30,6 @@ Binary Classification Table
 | Actual Positive | TP | FN |
 | Actual Negative | FP | TN |
 
-### K-S Test
-
-https://onlinecourses.science.psu.edu/stat414/node/323
-
-In statistics, the Kolmogorov–Smirnov test (K–S test or KS test) is a nonparametric test of the equality of continuous, one-dimensional probability distributions that can be used to compare a sample with a reference probability distribution (one-sample K–S test), or to compare two samples (two-sample K–S test).
-
 ### Simpson’s Paradox 
 
 Simpson’s Paradox is a paradox in probability and statistics, in which a trend appears in different groups of data but disappears or reverses when these groups are combined.
@@ -50,6 +44,15 @@ By adding Gaussian noise to the input, the learning model will behave like an L2
   - Error Term i.i.d (Independent and identically distributed) 均值为0，近normal 分布(normally distributed residuals)，constant variance和independently distributed. 
   - The predictor variables X1, . . . , Xp, are assumed to be linearly independent of each other; variables are nonrandom; variable values are all measured without error.
   - All observations are equally reliable and have approximately equal role in determining the regression results and in influencing conclusions.
+
+### One Sample T-test
+
+  - z = (p - p_0) / sqrt((p_0 * (1 - p_0)) / n)
+  - z = (mu - mu_0) / sqrt(sigma^2 / n)
+  
+### Two Sample T-test
+
+  - https://onlinecourses.science.psu.edu/stat500/node/50
   
 ### ANOVA
 
@@ -64,10 +67,12 @@ Examples:
 ### Chi-square Test
 
   - chi-square = sum( (observed_frequency_i - expected_frequency_i)^2 / expected_frequency_i )
+  
+### K-S Test
 
-### Two Sample T-test
+https://onlinecourses.science.psu.edu/stat414/node/323
 
-  - https://onlinecourses.science.psu.edu/stat500/node/50
+In statistics, the Kolmogorov–Smirnov test (K–S test or KS test) is a nonparametric test of the equality of continuous, one-dimensional probability distributions that can be used to compare a sample with a reference probability distribution (one-sample K–S test), or to compare two samples (two-sample K–S test).
   
 ### With or Without Replacement
 
