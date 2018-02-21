@@ -109,6 +109,9 @@ Moving Average
   - Cov(X, Y) = E((X - E(X))*(Y - E(Y)))
   - sigma^2 = E(X^2) - (E(X))^2
   - X ~ N(0, 1), E(X) = 0, sigma^2 = E(X^2) - (E(X))^2 = 1
+  
+Answer:
+  - sqrt(2) / 2
 
 ### Pick up a coin from C1 and C2 with probability of trials p(h1)=.7, p(h2)=.6 and doing 10 trials. And what is the probability that the given coin you picked is C1 given you have 7 heads and 3 tails?
 
