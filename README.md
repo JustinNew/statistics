@@ -101,14 +101,23 @@ Moving Average
   - early stopping 
   - ...
 
+### Linear Regression and Correlation Relationship
+
+Linear Regression
+  - Y = a + b * X
+  - b = Cov(X, Y) / Variance(X) = Cov(X, Y) / Sigma(X)^2
+  
+Pearson Correlation
+  - rho = Cov(X, Y) / Sigma(X) * Sigma(Y)
+
 # Problems
 
 ### X,Y ~ N(0,1), correlation of (X+Y, X)?
 
-  - Pearson correlation coefficient formula: rho = Cov(X, Y) / sigma_x * sigma_y
+  - Pearson correlation coefficient formula: rho = Cov(X, Y) / Sigma(X) * Sigma(Y)
   - Cov(X, Y) = E((X - E(X))*(Y - E(Y)))
-  - sigma^2 = E(X^2) - (E(X))^2
-  - X ~ N(0, 1), E(X) = 0, sigma^2 = E(X^2) - (E(X))^2 = 1
+  - Sigma^2 = E(X^2) - (E(X))^2
+  - X ~ N(0, 1), E(X) = 0, Sigma^2 = E(X^2) - (E(X))^2 = 1
   
 Answer:
   - sqrt(2) / 2
