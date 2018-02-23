@@ -69,7 +69,8 @@ Simpson’s Paradox is a paradox in probability and statistics, in which a trend
 
 ### Gaussian Noise and Regularization
 
-By adding Gaussian noise to the input, the learning model will behave like an L2-penalty regularizer. By adding Laplace noise to the input, the learning model will behave like an L1-penalty regularizer.
+  - By adding Gaussian noise to the input, the learning model will behave like an L2-penalty regularizer. 
+  - By adding Laplace noise to the input, the learning model will behave like an L1-penalty regularizer.
 
 ### Assumptions of linear regression
 
