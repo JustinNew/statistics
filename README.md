@@ -131,9 +131,8 @@ Answer:
   - p(7H | C1) = C(10,7)*0.7^7*0.3^3
   - ans = C(10,7)*0.7^7 * 0.3^3 * 0.5 / [ C(10,7)*0.7^7 * 0.3^3 * 0.5 + C(10,7)*0.6^7 * 0.4^3 * 0.5]
 
-
 ### A box contains a red ball, an orange ball, a yellow ball, a green ball, a blue ball and an indigo ball. Billy randomly selects 7 balls from the box (with replacement). What is the expected value for the number of distinct colored balls Billy will select?
-  - Let P(i),0<i<7 be the probability of having i distinct balls after drawing 7 balls.
+  - Let P(i), 0 < i <= 7 be the probability of having i distinct balls after drawing 7 balls.
   - P(1) = C(6,1) * (1/6)^7
   - P(2) = C(6,2) * (1/6)^7 * (C(7,1) + C(7,2) + C(7,3) + C(7,4) + C(7,5) + C(7,6))
   - ...
