@@ -14,7 +14,7 @@ Statistics
 
 ROC curve, is a graphical plot that illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied.
 
-  -  Y - TPR, X - FPR
+  - Y - TPR, X - FPR
   - TPR = TP / (TP + FN) = TP / P
   - FPR = FP / (FP + TN) = FP / N
 
