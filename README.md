@@ -156,9 +156,9 @@ Answer:
   - 4th: d, 3/6
   - 5th: e, 2/6
   - 6th: f, 1/6
-  - To get (1,2,3,4,5,6): 1 + 6/5 + 6/4 + 6/3 + 6/2 + 6/1
+  - To get (1, 2, 3, 4, 5, 6): 1 + 6/5 + 6/4 + 6/3 + 6/2 + 6/1
 
-#### 1000 people, each time select 10 (w/o replacement) 问每个人on average多少次会被抽到
+#### 1000 people, each time select 10 (w/o replacement) 问每个人on average多少次会被抽到?
 
   - In sampling without replacement, focus on how many iterations are needed. That number will be any count from 1 through 100, each equally likely. 
   - So sampling without replacement, it will be 1/100*(1+2+...+100) = 50.5.
