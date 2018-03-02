@@ -94,6 +94,14 @@ Autoregression
   
 Moving Average
   - x(t) = mu + epsilon(t) + sum( q_i * epsilon(t - i))
+  
+ARIMA
+  - https://people.duke.edu/~rnau/411arim.htm
+  - ARIMA(p,d,q)
+  - Differencing in statistics is a transformation applied to time-series data in order to make it stationary.
+  - If d=0:  y(t) = Y(t)
+  - If d=1:  y(t) = Y(t) - Y(t-1)
+  - If d=2:  y(t) =  (Y(t) - Y(t-1)) - (Y(t-1) - Y(t-2))  =  Y(t) - 2Y(t-1) + Y(t-2)
 
 ### Ways to avoid overfitting
   - regularization 
