@@ -220,6 +220,17 @@ or,
 ### 有两个硬币，都是有bias的，但是你不知道具体每个硬币head朝上的概率，现在让你扔100次，扔到head给你1刀，扔到tail付1刀，问怎么设计策略可以赢得最多。
 
   - UCB : An Optimal Exploration Algorithm for Multi-Armed Bandits 
+  
+### Expected value of minimum of two uniform random variables
+
+  - 广告bid, 出价最高的公司可以拿到那个广告位置，但是价格是第二高的那个价格。比如说有3个出价，100,50,30。那么出价100的赢了，但只需要出50块。 问题比较简单，如果只有两个人bid，这两人的出价都是Uniform(0,1),那么expected的广告收入说多少？
+  - 我说一个价格x_1, 一个x_2, 本质求 min(x_1, x_2)的期望。
+  - From [StackExchange](https://math.stackexchange.com/questions/786392/expectation-of-minimum-of-n-i-i-d-uniform-random-variables)
+    - By definition probability, F(y) = P(Y ≤ y) = 1 − P(Y > y) = 1 − P(min(X1,…,Xn) > y). 
+	- Of course, min(X1,…Xn) > y exactly when Xi > y for all i. 
+	- Since these variables are i.i.d., we have F(y) = 1 − P(X1 > y)P(X2 > y)…P(Xn > y) = 1 − P(X1 > y)^n. 
+	- From F(y), derivative to get the density function f(y)
+	- The expect value E(y) = integral(y * f(y) * dy)
 
 
 
