@@ -76,9 +76,18 @@ Simpson’s Paradox is a paradox in probability and statistics, in which a trend
 
   - Linear relationship between Y and X1, …, Xp
   - Error Term i.i.d (Independent and identically distributed) 均值为0，近normal 分布(normally distributed residuals)，constant variance和independently distributed. 
+	- Error has normal distribution.
+	- The errors have zero mean.
+	- The errors have the same (but unknown) variance. When this assumption does not hold, the problem is called the heterogeneity or the heteroscedasticity problem. (191/391 Regression Analysis By Example)
+	  - Weighted Least Squares sum(w_i * (y_i - beta_0 - beta_1 * x_i)^2)
+	  - w_i = 1/sigma_i^2, sigma_i^2 is the variance of epsilon_i.
+	  - Ordinary Least Squared sum( (y_i - beta_0 - beta_1 * x_i)^2 )
+	- The errors are independent of each other. When this assumption does not hold, we have the autocorrelation problem. (213/391 Regression Analysis By Example)
+	  - The first type is only autocorrelation in appearance. It is due to the omission of a variable that should be in the model, such as seasonality.
+	  - The second type of autocorrelation may be referred to as pure autocorrelation. The methods of correcting for pure autocorrelation involve a transformation of the data.
   - The predictor variables X1, . . . , Xp, are assumed to be linearly independent of each other; variables are nonrandom; variable values are all measured without error.
   - All observations are equally reliable and have approximately equal role in determining the regression results and in influencing conclusions.
-  
+
 ### With or Without Replacement
 
 With Replacement
