@@ -231,6 +231,7 @@ or,
 	- Since these variables are i.i.d., we have F(y) = 1 − P(X1 > y)P(X2 > y)…P(Xn > y) = 1 − P(X1 > y)^n. 
 	- From F(y), derivative to get the density function f(y)
 	- The expect value E(Y) = integral(y * f(y) * dy)
+  - [Another Solution](http://premmi.github.io/expected-value-of-minimum-two-random-variables)
 
 
 
