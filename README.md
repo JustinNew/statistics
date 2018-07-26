@@ -53,7 +53,7 @@ Note:
 Examples:
   - http://sphweb.bumc.bu.edu/otlt/MPH-Modules/BS/BS704_HypothesisTesting-ANOVA/BS704_HypothesisTesting-Anova_print.html
   
-### Chi-square Test
+### [Chi-square Test](https://onlinecourses.science.psu.edu/statprogram/node/158/)
 
   - chi-square = sum( (observed_frequency_i - expected_frequency_i)^2 / expected_frequency_i )
   
