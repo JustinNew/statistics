@@ -100,7 +100,7 @@ With Replacement
 Without Replacement
   - Sampling without Replacement is a way to figure out probability without replacement. In other words, you don’t replace the first item you choose before you choose a second.
   
-### Autoregression and Moving Average (AR, MA)
+### [Autoregression and Moving Average (AR, MA)](https://en.wikipedia.org/wiki/Autoregressive%E2%80%93moving-average_model)
 
 Autoregression
   - x(t) = c + sum( beta_i * x(t - i)) + epsilon(t)
