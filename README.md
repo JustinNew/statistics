@@ -183,6 +183,18 @@ Answer:
   - 6th: f, 1/6
   - To get (1, 2, 3, 4, 5, 6): 1 + 6/5 + 6/4 + 6/3 + 6/2 + 6/1
 
+### How many times to flip to get (H, T) a set?
+  - First flip once to get H or T, accept
+  - Then we need to get the other T for H (1st), or H for T (1st), the expected flip times is 2.
+  - So, finally expected times = 1 + 2 = 3
+
+### How many times to flip to get (H, H) or (T, T)?
+  - Flip once, H (or T)
+  - Flip twice, 1/2 to get H, stop; remain 1/2 need to continue, get T
+  - Flip third, 1/2 to get T, stop; remain 1/2 need to continue, get H
+  - ...
+  - expected times = 1/2 * 2 + 1/2 * 1/2 * 3 + 1/2 * 1/2 * 1/2 * 4 + ... = 3 
+
 #### 1000 people, each time select 10 (w/o replacement) 问每个人on average多少次会被抽到?
 
   - In sampling without replacement, focus on how many iterations are needed. That number will be any count from 1 through 100, each equally likely. 
