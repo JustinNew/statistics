@@ -68,9 +68,7 @@ Examples:
 
   - [This lesson](https://stattrek.com/chi-square-test/independence.aspx) explains how to conduct a chi-square test for independence. The test is applied when you have two categorical variables from a single population. It is used to determine whether there is a significant association between the two variables.
   
-### K-S Test
-
-https://onlinecourses.science.psu.edu/stat414/node/323
+### [K-S Test](https://onlinecourses.science.psu.edu/stat414/node/323)
 
 In statistics, the Kolmogorov–Smirnov test (K–S test or KS test) is a nonparametric test of the equality of continuous, one-dimensional probability distributions that can be used to compare a sample with a reference probability distribution (one-sample K–S test), or to compare two samples (two-sample K–S test).
   
