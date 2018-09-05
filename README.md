@@ -58,12 +58,15 @@ Examples:
   - Situations
     - Categorical variables
     - Data is frequency or counts
-
-  - [This lesson](https://stattrek.com/chi-square-test/independence.aspx) explains how to conduct a chi-square test for independence. The test is applied when you have two categorical variables from a single population. It is used to determine whether there is a significant association between the two variables.
-
-  - For example, in an election survey, voters might be classified by gender (male or female) and voting preference (Democrat, Republican, or Independent). We could use a chi-square test for independence to determine whether gender is related to voting preference.
+    - Compare the observed frequency with the expected frequency
 
   - chi-square = sum( (observed_frequency_i - expected_frequency_i)^2 / expected_frequency_i )
+
+  - Use case examples:
+    - Whethere a dice is a fair dice
+    - Whether gender (Male or Female) is independent of voting preference (Republican or Democrat)
+
+  - [This lesson](https://stattrek.com/chi-square-test/independence.aspx) explains how to conduct a chi-square test for independence. The test is applied when you have two categorical variables from a single population. It is used to determine whether there is a significant association between the two variables.
   
 ### K-S Test
 
