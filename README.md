@@ -142,8 +142,8 @@ Pearson Correlation
 
   - Pearson correlation coefficient formula: rho = Cov(X, Y) / Sigma(X) * Sigma(Y)
   - Cov(X, Y) = E((X - E(X))*(Y - E(Y)))
-  - Sigma^2 = E(X^2) - (E(X))^2
-  - X ~ N(0, 1), E(X) = 0, Sigma^2 = E(X^2) - (E(X))^2 = 1
+  - Corr(X) = E((X - E(X)) * (X - E(X))) = E(X^2) - (E(X))^2
+  - X ~ N(0, 1), E(X) = 0, Corr(X) = Sigma(X)^2 = E(X^2) - (E(X))^2 = E(X^2) = 1
   
 Answer:
   - sqrt(2) / 2
