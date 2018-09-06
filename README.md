@@ -205,10 +205,11 @@ Answer:
   - p = 1 / 100
   - Expected times to be selected 1/p = 100
   
-#### 目问说箱子里面有三种球，红色，蓝色和白色，开始一个一个往出拿，with replacement，这个游戏当你拿到红球的时候就停止了，求问说蓝色球被拿到次数的期望。
+#### 说箱子里面有三种球，红色，蓝色和白色，开始一个一个往出拿，with replacement，这个游戏当你拿到红球的时候就停止了，求问说蓝色球被拿到次数的期望。
 
   - p = 1/3
-  - Expected times: 1/p = 3 
+  - Expected times to get 红球: 1/p = 3
+  - 蓝色和白色are symmetric, so the expected time to get 蓝色 is 1. 
   
 ### If the probability a car get at least one ticket within an hour is 84%, what is the probability of getting at least one ticket in half an hour?
 
