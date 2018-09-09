@@ -46,7 +46,10 @@ Note:
 
   - Analysis of Variance (ANOVA) is a statistical method used to test differences between two or more means.
   - A hypothesis test that is used to compare the means of two populations is called t-test. A statistical technique that is used to compare the means of more than two populations is known as Analysis of Variance or ANOVA.
-  - Test Statistic: Between Sample Variance/Within Sample Variance
+  - Test Statistic / F statistics: Between Group Variance/Within Group Variance
+    - Signal: between group variance
+    - Noise: within group variance
+    - F statistics = Signal-to-Noise-Ratio = Between Group Variance/Within Group Variance
   - Multiply t-test will increase the type I (false positive) rate: a null hypothesis is rejected although it is true.
   - If there are only two conditions of the independent variable, doing ANOVA is the same as running a (two-tailed) two-sample t-test.
   
