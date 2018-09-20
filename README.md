@@ -273,9 +273,6 @@ or,
   - var(X) = E(X^2)-(E(X))^2
   - E(X) & E(X^2)都可以先在服务器上计算一部分，传3个数 (sum(Xi), sum(Xi^2), count(Xi)) 回本地，最后本地再合成。
 
+### In a class you have 30 students, what is the probability of that we have exact two people who have the same birthday?
 
-
-
-
-
-
+  - C(30, 2) * C(365, 1) * 364 * 363 * ... * (364 - 27) / 365 ^ 30
